@@ -108,3 +108,59 @@ nav ul li a{
     color: rgb(128, 128, 128);
     list-style: url('images/checked.jpg');
 }
+
+/* Bottom */
+.content-to-bottom{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    padding-left: 30px;
+}
+.to-bottom-text{
+    margin-right: 120px;
+    width: 300px;
+}
+.to-bottom-text h3{
+    font-size: 30px;
+    color: #006fb7;
+}
+.to-bottom-text p{
+    color: rgb(128, 128, 128);
+}
+.to-bottom-img{
+    display: flex;
+    border-left: 1px #000 solid;
+}
+.to-bottom-img img{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description img{
+    height: 20px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.boutton-2{
+    margin-top: -180px;
+    width: 150px;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px #006fb7 solid;
+    background-color: #006fb7;
+    border-radius: 40px;
+}
+.boutton-2 a{
+    color: #fff;
+}
+.boutton-2:hover,.boutton-2 a:hover {
+    background-color: transparent;
+    color: #006fb7;
+}
