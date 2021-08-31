@@ -1,7 +1,7 @@
 /* General Css */
 body{
-    background-color: #006fb7;
     font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
+    width: 100%;
 }
 ul, ol{
     list-style: none;
@@ -11,10 +11,16 @@ a{
 }
 
 /* Hearder */
+.content-top{
+    background-color: #006fb7;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -10px;
+    padding-bottom: 40px;
+}
 .entete{
+    padding-top: 10px;
     margin-left: 30px;
-
-    margin-top: 20px;
     justify-content: center;
     display: flex;
 }
@@ -60,6 +66,7 @@ nav ul li a{
     width:500px;
     clip-path:ellipse(50% 50%);
     margin-left: 180px;
+    margin-bottom: 30px;
 }
 .boutton a{
     color: #fff;
@@ -67,15 +74,37 @@ nav ul li a{
 .boutton{
     margin-left: 30px;
     font-size: 20px;
-    margin-top: -90px;
+    margin-top: -100px;
     text-align: center;
     width: 150px;
     border: 1px orange solid;
-    padding: 10px;
     background-color: orange;
     border-radius: 120px;
 }
 .boutton:hover{
     background-color: transparent;
     border-width: 4px;
+}
+
+/* Center */
+.content-to-center{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    padding-left: 30px;
+}
+.to-center-text{
+    margin-right: 120px;
+    width: 500px;
+}
+.to-center-text h3{
+    font-size: 30px;
+    color: #006fb7;
+}
+.to-center-text p{
+    color: rgb(128, 128, 128);
+}
+.to-center-text ul{
+    color: rgb(128, 128, 128);
+    list-style: url('images/checked.jpg');
 }
