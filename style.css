@@ -83,8 +83,7 @@ nav ul li a{
 }
 .boutton:hover{
     background-color: transparent;
-    border-width: 4px;
-}
+} 
 
 /* Center */
 .content-to-center{
