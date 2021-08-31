@@ -1,0 +1,81 @@
+/* General Css */
+body{
+    background-color: #006fb7;
+    font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Hearder */
+.entete{
+    margin-left: 30px;
+
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.entete h4{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 0;
+    margin-right: 120px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+nav ul li a{
+    color: #fff;
+}
+.icon-social{
+    margin-left: 70px;
+}
+
+/* Milieu */
+.milieu{
+    display: flex;
+    color: #fff;
+}
+.milieu-left{
+    margin-left: 30px;
+    width: 500px;
+}
+.milieu-left h6{
+    font-size: 50px;
+}
+.milieu-left p{
+    margin-top: -90px;
+    font-size: 20px;
+}
+.img-pizza{
+    width:500px;
+    clip-path:ellipse(50% 50%);
+    margin-left: 180px;
+}
+.boutton a{
+    color: #fff;
+}
+.boutton{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: -90px;
+    text-align: center;
+    width: 150px;
+    border: 1px orange solid;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 120px;
+}
+.boutton:hover{
+    background-color: transparent;
+    border-width: 4px;
+}
