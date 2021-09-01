@@ -1,7 +1,6 @@
 /* General Css */
 body{
     font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
-    width: 100%;
 }
 ul, ol{
     list-style: none;
@@ -12,11 +11,13 @@ a{
 
 /* Hearder */
 .content-top{
+    width: 1380px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     background-color: #006fb7;
-    width: 100%;
-    margin-top: -8px;
+    margin-top: -8px; 
     margin-left: -10px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; 
 }
 .entete{
     padding-top: 10px;
@@ -25,9 +26,9 @@ a{
     display: flex;
 }
 .entete h4{
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: 120px;
 }
 nav ul{
@@ -46,10 +47,13 @@ nav ul li a{
     margin-left: 70px;
 }
 
+
 /* Milieu */
 .milieu{
+    width: 1380px;
     display: flex;
     color: #fff;
+    overflow: hidden;
 }
 .milieu-left{
     margin-left: 30px;
@@ -61,12 +65,6 @@ nav ul li a{
 .milieu-left p{
     margin-top: -90px;
     font-size: 20px;
-}
-.img-pizza{
-    width:500px;
-    clip-path:ellipse(50% 50%);
-    margin-left: 180px;
-    margin-bottom: 30px;
 }
 .boutton a{
     color: #fff;
@@ -83,18 +81,29 @@ nav ul li a{
 }
 .boutton:hover{
     background-color: transparent;
+}
+.img-pizza{
+    width:400px;
+    height: 400px;
+    margin-right: -200px;
+    clip-path:ellipse(50% 50%);
+    margin-bottom: 30px;
+    margin-left: 400px;
+    /* display: block !important;
+    float: right !important; */
 } 
 
 /* Center */
 .content-to-center{
+    /* width: 1380px; */
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
     padding-left: 30px;
 }
 .to-center-text{
-    margin-right: 120px;
-    width: 500px;
+    margin-right: 400px;
+    width: 400px;
 }
 .to-center-text h3{
     font-size: 30px;
@@ -107,17 +116,22 @@ nav ul li a{
     color: rgb(128, 128, 128);
     list-style: url('images/checked.jpg');
 }
+.to-center-img{
+    float: right;
+    width: 400px;
+}
 
 /* Bottom */
 .content-to-bottom{
+    width: 100%;
     margin-top: 40px;
     margin-bottom: 60px;
     display: flex;
     padding-left: 30px;
 }
 .to-bottom-text{
-    margin-right: 120px;
-    width: 300px;
+    margin-right: 150px;
+    width: 500px;
 }
 .to-bottom-text h3{
     font-size: 30px;
@@ -127,6 +141,7 @@ nav ul li a{
     color: rgb(128, 128, 128);
 }
 .to-bottom-img{
+    width: 100%;
     display: flex;
     border-left: 1px #000 solid;
 }
