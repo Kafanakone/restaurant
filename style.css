@@ -1,6 +1,7 @@
 /* General Css */
 body{
     font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
+    overflow-x: hidden;
 }
 ul, ol{
     list-style: none;
@@ -11,13 +12,11 @@ a{
 
 /* Hearder */
 .content-top{
-    width: 1380px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
     background-color: #006fb7;
-    margin-top: -8px; 
-    margin-left: -10px;
     padding-bottom: 40px; 
+    width: 1400px;
+    margin-top: -8px;
+    margin-left: -10px;
 }
 .entete{
     padding-top: 10px;
@@ -51,10 +50,10 @@ nav ul li a{
 
 /* Milieu */
 .milieu{
-    width: 1380px;
+    /* width: 100%; */
     display: flex;
     color: #fff;
-    overflow: hidden;
+    padding-bottom: 60px;
 }
 .milieu-left{
     margin-left: 30px;
@@ -89,11 +88,39 @@ nav ul li a{
     margin-right: -200px;
     clip-path:ellipse(50% 50%);
     margin-bottom: 30px;
-    margin-left: 400px;
+    margin-left: 250px;
     /* display: block !important;
     float: right !important; */
 } 
-
+.milieu-right{
+    display: flex;
+}
+.description-pizza{
+    color: #000;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    z-index: 99;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+.description-pizza img{
+    width:50px;
+    height: 50px;
+    clip-path:ellipse(50% 50%);
+    margin: 10px;
+}
+.description-pizza-text{
+    width: 300px;
+}
+.description-pizza-text .P2{
+    margin-left: -50px;
+}
+.description-pizza-text h5{
+    font-size: 15px;
+}
 /* Center */
 .content-to-center{
     /* width: 1380px; */
