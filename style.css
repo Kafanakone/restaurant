@@ -1,6 +1,7 @@
 /* General Css */
 body{
     font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
+    width: 100%;
 }
 ul, ol{
     list-style: none;
