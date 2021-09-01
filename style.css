@@ -42,6 +42,9 @@ nav ul li{
 nav ul li a{
     color: #fff;
 }
+nav ul li a:hover{
+    border-top: 3px orange solid;
+}
 .icon-social{
     margin-top: 10px;
     margin-left: 70px;
@@ -99,7 +102,7 @@ nav ul li a{
     color: #000;
     display: flex;
     width: 250px;
-    height: 150px;
+    height: 160px;
     background-color: #fff;
     z-index: 99;
     padding: 10px;
