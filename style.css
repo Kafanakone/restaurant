@@ -11,7 +11,7 @@ a{
 
 /* Hearder */
 .content-top{
-    width: 1380px;
+    width: 100%;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     background-color: #006fb7;
