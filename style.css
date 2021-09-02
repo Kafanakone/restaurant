@@ -1,9 +1,11 @@
 /* General Css */
-body{
+body, html{
     font-family: "Bebas Regular", "Myriad Variable Concept", sans-serif;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    height: 100vh;
+    width: 100vw;
 }
 ul, ol{
     list-style: none;
