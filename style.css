@@ -99,6 +99,9 @@ nav ul li a:hover{
     /* display: block !important;
     float: right !important; */
 } 
+.img-pizza:hover{
+    transform: scale(1.3);
+}
 .milieu-right{
     display: flex;
 }
